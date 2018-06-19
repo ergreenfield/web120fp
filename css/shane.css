@@ -1,0 +1,294 @@
+
+/* UNIVERSAL STYLE SHEET */
+
+background {
+    background-color:#fff;
+}
+div.wrapper {
+    background-color:#fff; 
+    width:80%; 
+    margin:auto; 
+    overflow:auto; 
+    z-index:-1;
+    
+} 
+div.flex-container {
+    display:flex;
+justify-content: center;
+} 
+footer {
+    text-align: center;
+    clear:both;
+}
+
+font {
+    color: #262626;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+
+
+body {
+    font-style: normal;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    font-size: 100%; 
+    background-color:#fff;
+}
+
+    h1.title {
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    color: #262626;
+    text-align: left;
+    margin-bottom:0;
+    margin-left:3px;
+    margin-top:0;
+}
+h1.headh2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align:left;
+    color: #262626;
+    Font-size:1.5em;
+    margin-bottom:.83em;
+    margin-left:3px;
+    margin-top:0;
+    
+}
+h3 {
+    font-style: normal;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    font-size: 1.1em;
+      color: #262626;
+}
+h2.pageID {
+    font-style: normal;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    font-size: 1.3em;
+      color: #262626;
+}
+p  {
+    font-style: normal;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+
+   color: #000;
+}
+p.disclaimer {
+    color: #a6a6a6;
+    font-size:12px;
+    margin:auto;
+    width:85%;
+}
+p.disclaimer2 {
+    color: #000;
+    font-size:17px;
+    margin:auto;
+    width:85%;
+}
+li {
+    font-size:105%;
+}
+ul {
+    font-size:105%;
+}
+.spacer {
+    height:40px;
+}
+
+/* CSS for Header/Index top link -EG keep if link to anything*/
+a.head:link    {
+  text-decoration:  none;
+   color:#000;
+  } 
+a.head:visited {
+    color:#000;
+}
+
+a.head:hover   {
+  color:#b32d00;
+  } 
+a.head:active {
+    color:#696363;
+}
+
+
+/* CSS for Home page */
+div.homeimage: {
+    width:80%;
+}
+
+/* CSS for Bio */
+
+p.bio {
+     text-indent: 30px;
+}
+div.bio {
+    width:100%;
+}
+img.bioleft {
+    width: 300px;
+    float:left;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin: auto;   
+}
+img.bioright {
+    width: 500px;
+    float:right;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;   
+}
+
+/* CSS for CV text in media query*/
+
+
+/* CSS for Statement -will wait to see what statement looks like from Shane*/
+p.statement {
+     text-indent: 30px;
+}
+
+
+/* CSS for Testimonials - will edit later when testimonials received*/
+div.testimonial {
+    width:75%;
+    margin: 0 auto;
+}
+p.quote {
+    font-style:italic;
+    text-indent: 30px;
+}
+p.quote2 {
+     text-indent: 30px;
+}
+
+/* CSS for media -lightbox */
+
+div.soundcloud {
+    margin:auto;
+    width:85%;
+}
+h2.media {
+    margin:auto;
+    width:85%;
+}
+img.gallery {
+    
+    padding-left:50px;
+    padding-right: 50px;
+    height:auto;
+    width:100%; 
+    
+}
+div.crop {
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    background-position: center center;
+  background-repeat: no-repeat;
+    background-size:contain; 
+}
+
+iframe.soundcloud{
+    padding-bottom:25px;
+}
+
+/* CSS for Calendar*/
+
+hr.calendar {
+    align-content:center;
+    width:65%;
+}
+p.calendar {
+    text-align:center;
+}
+
+/* contact */
+div.contact {
+    width:100%;
+}
+section {
+    width:55%;
+    float:left;
+}
+aside {
+    width: 40%;
+    float:right;
+}
+img.contactimage {
+    height:500px;
+}
+/* Start RESPONSIVE RULES */
+
+/*desktop*/
+
+@media screen and (min-width:700px) {
+
+    img.homeimage {
+    width: 100%;
+    display:block;
+    overflow:hidden;
+        -webkit-scrollbar {display:none;}}
+}
+iframe.cvdesktop {
+    margin:auto;
+    width: 90%;
+    height:800px;
+    z-index:-1;
+}
+
+/*mobile*/
+
+@media screen and (max-width:699px) {
+   
+        img.homeimage {
+    width:100%;
+    display:block;
+    margin-left:auto;
+            margin-right:auto;}
+            
+
+    
+    h1.title {
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #cc9933;
+    text-align: left;
+    margin-bottom:0;
+    margin-left:3px;
+    margin-top:0;
+}
+h1.headh2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align:left;
+    color: #262626;
+    Font-size:1em;
+    margin-bottom:.83em;
+    margin-left:3px;
+    margin-top:0;
+    
+}
+    .cvdesktop {
+        display:none;
+    }
+img.contactimage {
+    display:none;
+}
+ img.gallery {
+    
+    padding-left:10px;
+    padding-right: 10px;
+    height:auto;
+    width:100%; 
+    
+}   
+div.crop {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+   
+}}
+
+
+

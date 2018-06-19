@@ -1,0 +1,15 @@
+<?php include "includes/header.php"?>
+
+<div class="bio">
+<img src="images/headshot2.jpg" class="bioleft">
+<p class="bio">Lorem ipsum dolor sit amet, te assum lobortis sadipscing vis, laudem doctus assentior per an. Quo causae iisque imperdiet cu. Per movet comprehensam conclusionemque ut, cum elit insolens qualisque ad. Et amet vero vivendum cum.Tollit ponderum inimicus vim eu, has vitae debitis in. His amet cotidieque te. Reque graeci feugait ius id, numquam euismod civibus id vix, quaeque suscipit reprimique vix ad. No vis eirmod civibus deseruisse. Nonumy libris usu ei, an nulla necessitatibus has.</p>
+
+<p class="bio">Sed cu choro utamur lucilius, ferri everti intellegebat pri no. At vis etiam dolorum lobortis. No lorem virtute placerat qui. Ubique quaeque his at, nec tritani complectitur no, habeo vituperata referrentur id sea.Duo ei soleat fuisset deserunt, ex debet delenit noluisse ius, error movet aliquam ne duo. Mei dicit decore oblique in, nam dolor dolore ad, sea saepe ubique noluisse cu. Homero laudem in sit. Qui molestie delicatissimi ad, sit dolores mandamus ei, sit et rebum appellantur. Malorum nominavi instructior duo ea. Ex labore persius erroribus ius, sea te timeam dolores invenire.  <img src="images/performing.jpg" class="bioright">  Ad mel imperdiet prodesset. Fabulas perfecto appellantur at mel. Eripuit intellegebat at eam, ubique definiebas ea sea. Sea dictas adipisci eu, ius ex numquam deserunt deterruisset, mea no officiis rationibus. Id mel maiorum tincidunt. His eu populo instructior, nostro forensibus qui te, ullum hendrerit democritum in pri.</p>
+ 
+<p class="bio">Et nam munere molestie evertitur, eam ex assum everti sadipscing. Viris detraxit an pro, sint audiam assueverit cu sea. Ei sed amet enim accusata. Ludus laboramus at cum. Augue decore offendit eum no, ei sed tale sint, at est accumsan salutatus.Malorum definitionem cu eam. Qui fabellas antiopam ei. Ad pro movet oporteat interpretaris, graeco moderatius te vel, habemus verterem intellegat sea an. In per lorem tritani ornatus, porro alterum est eu, putant expetenda eu vel. Quo ludus tantas scripta cu, nec dolorem appetere an.</p>
+
+<p class="bio">Etiam blandit tempus lorem, vitae lobortis est mollis non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce scelerisque dolor a tortor scelerisque lobortis. Morbi commodo, ex nec viverra bibendum, leo nunc dignissim velit, id faucibus ex mauris a dolor. Maecenas porttitor mauris convallis eleifend lacinia. Quisque neque metus, condimentum nec tempus a, placerat a erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia vestibulum magna id venenatis. Proin volutpat laoreet iaculis. Aliquam sed quam egestas, feugiat massa a, malesuada magna. Vestibulum pulvinar erat mauris, at sodales sem commodo eu. Vestibulum feugiat enim a maximus volutpat. Vestibulum eu posuere enim. Sed nec tristique diam.</p>
+</div>
+
+</div>
+<?php include "includes/footer.php"?>
